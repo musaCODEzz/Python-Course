@@ -1,0 +1,81 @@
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  background-color: #f9f9f9;
+  color: #222222;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Main container */
+main {
+  max-width: 700px;
+  margin: 4rem auto;
+  padding: 2rem 1.5rem;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+/* Intro section */
+.intro h1 {
+  font-weight: 700;
+  font-size: 2.75rem;
+  margin-bottom: 1rem;
+}
+
+/* Section headings */
+.projects h2,
+.writing h2 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-top: 3rem;
+  margin-bottom: 0.75rem;
+  color: #007acc;
+}
+
+/* Paragraphs */
+.projects p,
+.writing p {
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+  color: #333333;
+}
+
+/* List styles */
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  margin-bottom: 1.5rem;
+  font-weight: 400;
+  color: #444444;
+}
+
+/* Bold text inside list */
+strong {
+  font-weight: 600;
+}
+
+/* Links */
+a {
+  color: #007acc;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  text-decoration: underline;
+  outline: none;
+}
