@@ -22,10 +22,10 @@ print(f'The original speed of alien2 is {alien_2["speed"]}')
 if alien_2['speed'] == 'slow':
     x_increment = 1
 elif alien_2['speed'] == 'medium':
-    x_increment = 2
+    x_increment = 10
 else:
     #fastest alien
-    x_increment = 3
+    x_increment = 4
 
 alien_2['x_position'] += x_increment
 print(f"New position: {alien_2['x_position']}")
