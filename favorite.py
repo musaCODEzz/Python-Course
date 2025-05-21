@@ -17,6 +17,7 @@ favorite_lang ={
     "jane": "java",
     "john": "c++",
     "james": "javascript",
+    "yveee": "python"
 }
 
 # language = favorite_lang["james"].title()
@@ -51,3 +52,9 @@ for name in favorite_lang.keys():
 
 # for language in favorite_lang.values():
 #     print(f"These are the favorite languages {language.title()}\n")
+
+for name in sorted(favorite_lang.keys()):
+    print(f"{name.title()}, thank you for taking the poll.")
+
+for language in set(favorite_lang.values()):
+    print(f"{language.title()}")
