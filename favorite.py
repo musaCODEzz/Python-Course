@@ -19,27 +19,35 @@ favorite_lang ={
     "james": "javascript",
 }
 
-language = favorite_lang["james"].title()
-print(f"James's favorite language is {language}.")
+# language = favorite_lang["james"].title()
+# print(f"James's favorite language is {language}.")
 
-alien_0 = {'color': 'green', 'speed': 'slow'}
-#print(alien_0["points"])
-point_value = alien_0.get('color', 'No point value assigned')
-print(point_value)
+# alien_0 = {'color': 'green', 'speed': 'slow'}
+# #print(alien_0["points"])
+# point_value = alien_0.get('color', 'No point value assigned')
+# print(point_value)
 
-user_0 = {
-    'username': 'Musa',
-    'first':'Ochanda',
-    'last':'Maxwel'
-}
+# user_0 = {
+#     'username': 'Musa',
+#     'first':'Ochanda',
+#     'last':'Maxwel'
+# }
 
-print(user_0)
+# print(user_0)
 
-for key, value in user_0.items():
-    print(f'{key}:{value}')
+# for key, value in user_0.items():
+#     print(f'{key}:{value}')
 
-for name, language in favorite_lang.items():
-    print(f"{name.title()} favorite's language is {language.title()}")
+# for name, language in favorite_lang.items():
+#     print(f"{name.title()} favorite's language is {language.title()}")
 
+friends = ['jane', 'john']
 for name in favorite_lang.keys():
-    print(name.title())
+    print(f"Hi {name}")
+    if name in friends:
+        language = favorite_lang[name]
+        print(f"\t{name}, I see you love {language}!")
+
+
+# for language in favorite_lang.values():
+#     print(f"These are the favorite languages {language.title()}\n")
