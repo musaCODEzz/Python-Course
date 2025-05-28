@@ -34,6 +34,8 @@ The repository is organized as follows:
   - `tuples.py`: Working with tuples
   - `slicing.py`: String and list slicing operations
   - `sort.py`: Sorting algorithms and methods
+  - `exercise.py`: Practice exercises and solutions
+  - `staticmethods.py`: Examples of static methods in classes
 
 ## How to Run the Code
 
