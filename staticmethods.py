@@ -21,6 +21,6 @@ class BankAccount:
         return 0<= rate <= 5
     
 owner_1 = BankAccount('Alice', 5000)
-owner_1.deposit(00)
+owner_1.deposit(900)
 print(BankAccount.is_valid_interest_rate(3))  # True
 print(BankAccount.is_valid_interest_rate(6))  # False
