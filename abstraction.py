@@ -13,7 +13,7 @@ class EmailService:
         self._authenticate_email()
         print('Sending email....')
         self._disconnect_server()
-        
+  #disconnecting from server      
     def _disconnect_server(self):
         print('Disconnecting from server....')
 
